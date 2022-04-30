@@ -18,4 +18,5 @@ myhostname
 **Security Concern**
 
 Since the password will be visible, do not run this script in front of unauthorized audience.
+
 The credential will remain in ```history```. clean up history if you want to keep the credential safe.
