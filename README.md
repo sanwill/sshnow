@@ -1,5 +1,5 @@
 # sshnow
-Simple python script to SSH to remote server.
+Simple python script to SSH and run shell commands to remote server.
 The ```paramiko``` module need to be installed on the client before running this script.
 
 
