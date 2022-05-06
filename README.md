@@ -5,12 +5,12 @@ The ```paramiko``` module need to be installed on the client before running this
 
 **Usage:**
 ```
-# python3 sshnow.py <ip/hostname> <username> <password> <commands in quote>
+# python sshnow.py <ip/hostname> <username> <password> <commands in quote>
 ```
 
 **Example:**
 ```
-# python3 sshnow.py 1.2.3.4 user password "hostname"
+# python sshnow.py 1.2.3.4 user password "hostname"
 myhostname
 ```
 
