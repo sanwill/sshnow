@@ -22,6 +22,8 @@ if __name__ == '__main__':
 
         stdin, stdout, stderr = ssh_client.exec_command(cmds)
         cmds_out = stdout.read().decode().strip()
+        cmd_err = stderr.read().decode().strip()
         print(cmds_out)
+        print(cmd_err)
 
         del ssh_client, stdin, stdout, stderr
