@@ -5,8 +5,8 @@ if __name__ == '__main__':
     args_len = (len(sys.argv))
     if args_len != 5:
         print("Missing arguments.\n"
-              + "Commands: python3 " + sys.argv[0] + " <ip/hostname> <username> <password> <commands in quote>\n"
-              + "Example: python3 " + sys.argv[0] + " 1.2.3.4 username password 'hostname\n"
+              + "Commands: python " + sys.argv[0] + " <ip/hostname> <username> <password> <commands in quote>\n"
+              + "Example: python " + sys.argv[0] + " 1.2.3.4 username password 'hostname\n"
               + "Exit."
               )
         exit
